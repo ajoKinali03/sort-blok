@@ -1,15 +1,115 @@
 
 body{
-  width: 100px;
-  height: 100px;
+    width: 100%;
+    background-color: black;
 }
 
 .container{
-  height: 100%;
-  width: 100%;
-  background-color: #000000;
-  
+    width: 97%;
+    height: 640px;
+    margin: 15px;
+    /* border: solid 5px rgb(109, 109, 109); */
 }
+
+.blok1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* float: right; */
+    height: 635px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+
+.blok2{
+    position: absolute;
+    right: 149px;
+    bottom: 0;
+    /* float: right; */
+    height: 560px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+
+.blok3{
+    position: absolute;
+    right: 298px;
+    bottom: 0;
+    /* float: right; */
+    height: 485px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+
+.blok4{
+    position: absolute;
+    right: 447px;
+    bottom: 0;
+    /* float: right; */
+    height: 410px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+
+.blok5{
+    position: absolute;
+    right: 596px;
+    bottom: 0;
+    /* float: right; */
+    height: 335px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+.blok6{
+    position: absolute;
+    right: 745px;
+    bottom: 0;
+    /* float: right; */
+    height: 260px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+.blok7{
+    position: absolute;
+    right: 894px;
+    bottom: 0;
+    /* float: right; */
+    height: 185px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+
+.blok8{
+    position: absolute;
+    right: 1043px;
+    bottom: 0;
+    /* float: right; */
+    height: 110px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+
+.blok9{
+    position: absolute;
+    right: 1192px;
+    bottom: 0;
+    /* float: right; */
+    height: 35px;
+    width: 146px;
+    background-color: white;
+    margin: 0 0.5px;
+}
+
+
+
 
 
 
@@ -80,4 +180,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
->>>>>>> 77b9c712a99ecbedc8a7a15c68150381f243b26f
+
+
+/* clear fix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
